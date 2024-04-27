@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# abort on error 
+
+set -e
 
 # SDL
 
@@ -33,5 +36,7 @@ cmake -S Vulkan-Loader -B build
 cmake --build build
 cmake --install build --prefix ../tpl
 
+# remove build 
 
+rm -rf build
 
