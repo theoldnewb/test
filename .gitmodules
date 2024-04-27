@@ -1,0 +1,3 @@
+[submodule "ups/sdl"]
+	path = ups/sdl
+	url = https://github.com/libsdl-org/SDL
